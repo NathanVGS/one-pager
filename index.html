@@ -28,9 +28,9 @@
 
 <main class="container">
     <div class="btn-group">
-        <a href="#summary" class="btn btn-outline-primary btn-sm active">Summary</a>
-        <a href="#practical" class="btn btn-outline-primary btn-sm">Practical info</a>
-        <a href="#contact" class="btn btn-outline-primary btn-sm">Contact us!</a>
+        <a href="#summary" class="btn btn-outline-primary btn-sm active" id="summary">Summary</a>
+        <a href="#practical" class="btn btn-outline-primary btn-sm" id="practical">Practical info</a>
+        <a href="#contact" class="btn btn-outline-primary btn-sm" id="contact">Contact us!</a>
     </div>
     <section class="card bg-light" id="summary">
         <h3 class="card-header">Summary of the event:</h3>
@@ -54,12 +54,12 @@
     </section>
     <section class="card bg-light" id="contact">
         <h3 class="card-header">Contact form</h3>
-        <form>
-            Name: <input class="form-control" type="text" placeholder="What is your name?"><br />
-            Email: <input class="form-control" type="text" placeholder="What is your email?"><br />
+        <form name="form">
+            Name: <input class="form-control" type="text" placeholder="What is your name?" required><br />
+            Email: <input class="form-control" type="text" placeholder="What is your email?" required><br />
             Message: <br>
-            <textarea class="form-control" placeholder="What is your message or question?"></textarea><br>
-            <input type="submit" value="Submit" class="btn btn-secondary disabled" >
+            <textarea class="form-control" placeholder="What is your message or question?" required></textarea><br>
+            <input type="submit" value="Submit" class="btn btn-secondary disabled" name="submit">
         </form>
     </section>
 
