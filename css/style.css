@@ -1,7 +1,19 @@
+/*html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6em;
+}*/
 .jumbotron {
     background-image: url(../img/werchter1.jpg);
     background-size: cover;
     height: 100%;
     width: 100%;
     min-height: 500px;
+}
+textarea {
+    width: 100%;
+}
+.card:first-child {
+    border-top: 1px solid #004b00;
 }
