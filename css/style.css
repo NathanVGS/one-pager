@@ -1,0 +1,7 @@
+.jumbotron {
+    background-image: url(../img/werchter1.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 500px;
+}
