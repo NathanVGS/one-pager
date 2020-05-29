@@ -14,6 +14,6 @@ body {
 textarea {
     width: 100%;
 }
-.card :first-child {
+.card:first-child {
     border-top: 1px solid #004b00;
 }
