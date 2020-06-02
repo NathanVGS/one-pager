@@ -5,6 +5,7 @@ setTimeout(function() {
     odometer.innerText = parseInt(visitors_counter);
   }, 200);
 
+/*
   document.getElementById("summary").addEventListener("click", summary);
   function summary(){
     document.getElementById("summary").className = "btn btn-outline-primary btn-sm active";
@@ -24,4 +25,4 @@ function contact(){
   document.getElementById("summary").className = "btn btn-outline-primary btn-sm";
   document.getElementById("practical").className = "btn btn-outline-primary btn-sm";
   document.getElementById("contact").className = "btn btn-outline-primary btn-sm active";
-}
+}*/

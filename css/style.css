@@ -6,6 +6,7 @@ body {
 }*/
 .jumbotron {
     background-image: url(../img/werchter1.jpg);
+    transition: background 1s linear;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -23,4 +24,9 @@ textarea {
 }
 #Visitors {
     display: none;
+}
+h1 {
+    color: white;
+    mix-blend-mode: difference;
+    font-family: 'Pacifico', cursive;The
 }
