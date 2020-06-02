@@ -30,3 +30,9 @@ h1 {
     mix-blend-mode: difference;
     font-family: 'Pacifico', cursive;The
 }
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding-top: 1em;
+}
